@@ -1,0 +1,26 @@
+.c-header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 53px 1rem;
+	&-figure{
+		margin: 0;
+		max-width: 50px;
+	}
+	&-nav{
+		&-list{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			display: grid;
+			grid-template-columns: 80px 80px 80px;
+			gap: 116px;
+			&-item{
+				a{
+					color: #fff;
+					font-size: 22px;
+				}
+			}
+		}
+	}
+}
