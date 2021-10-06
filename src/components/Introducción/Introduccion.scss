@@ -1,0 +1,17 @@
+.c-instroduccion {
+	background-image: url("../../assets/static/introduccion.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	color: #fff;
+	&-title{
+		margin: 0;
+		font-family: 'Staatliches', cursive;
+		font-size: 7rem;
+	}
+	&-subtitle{
+		font-size: 21px;
+		margin-bottom: 82px;
+	}
+}
