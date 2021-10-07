@@ -1,0 +1,25 @@
+.about{
+	background-image: url('../../assets/static/aboutAs.png');
+	min-height: 100vh;
+	padding: 0 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&__container{
+		max-width: 1160px;
+		margin: auto;
+		text-align: center;
+	}
+	&__title {
+		font-size: 35px;
+	}
+	&__subtitle{
+		font-size: 22px;
+		margin-bottom: 72px;
+	}
+	&__paragraph{
+		font-size: 15px;
+		text-align: center;
+		margin-top: 200px;
+	}
+}
