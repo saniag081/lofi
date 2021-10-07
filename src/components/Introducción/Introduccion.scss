@@ -3,15 +3,15 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100vh;
-	color: #fff;
-	&-title{
+	min-height: 100vh;
+	color: var(--color-white);
+	&__title{
 		margin: 0;
 		font-family: 'Staatliches', cursive;
-		font-size: 7rem;
+		font-size: 100px;
 	}
-	&-subtitle{
-		font-size: 21px;
+	&__subtitle{
+		font-size: 35px;
 		margin-bottom: 82px;
 	}
 }

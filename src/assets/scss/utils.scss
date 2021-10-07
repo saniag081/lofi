@@ -4,14 +4,26 @@
   padding: 0 1rem;
 }
 
-.u-btn{
+.u-btn--primary{
   padding: 1.5rem 3rem;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid var(--color-white);
+  color: var(--color-white);
   text-decoration: none;
 }
 
-.u-btn:hover{
-  background-color: #fff;
-  color: black;
+.u-btn--primary:hover{
+  background-color: var(--color-white);
+  color: var(--color-black);
+}
+
+.u-btn--secundary{
+  padding: 1.5rem 3rem;
+  border: 2px solid var(--color-black);
+  color: var(--color-black);
+  text-decoration: none;
+}
+
+.u-btn--secundary:hover{
+  background-color: var(--color-black);
+  color: var(--color-white);
 }
