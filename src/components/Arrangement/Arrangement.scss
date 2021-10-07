@@ -1,0 +1,16 @@
+.arrangement{
+	background-image: url('../../assets/static/arrangement.png');
+	color: var(--color-white);
+	min-height: 100vh;
+	padding: 50px 0;
+	&__container{
+		display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(300px, 400px) );
+		justify-content: center;
+    gap: 170px;
+	}
+	&__paragraph{
+		margin-top: 80px;
+		text-align: center;
+	}
+}
