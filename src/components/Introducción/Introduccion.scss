@@ -5,14 +5,31 @@
 	background-size: cover;
 	min-height: 100vh;
 	color: var(--color-white);
+	padding-bottom: 3rem;
 	&__title{
 		margin: 0;
 		font-family: 'Staatliches', cursive;
-		font-size: 106px;
+		font-size: 6.8rem;
 	}
 	&__subtitle{
 		margin-top: 10px;
-		font-size: 20px;
+		font-size: 1.4rem;
 		margin-bottom: 82px;
+	}
+}
+
+@media(max-width: 750px){
+	.instroduccion{
+		&__title{
+			font-size: 5rem;
+		}
+	}
+}
+
+@media(max-width: 500px){
+	.instroduccion{
+		&__title{
+			font-size: 4rem;
+		}
 	}
 }

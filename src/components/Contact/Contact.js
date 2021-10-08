@@ -11,10 +11,10 @@ function Contact() {
 				<p className="contact__paragraph">TO APPLY FOR A STEREO MEMBERSHIP, ONE MUST BE RECOMMENDED BY TWO STEREO TIER MEMBERS. THE MEMBERSHIP COMMITTEE WILL MEET EVERY TWO MONTHS TO REVIEW A LIMITED NUMBER OF APPLICATIONS. NOMINATION DOES NOT GUARANTEE ACCEPTANCE.</p>
 				<form className="contact__form">
 					<div>
-						<input className="u-input w100" type="text" placeholder='NAME*' />
+						<input className="u-input" type="text" placeholder='NAME*' />
 						<div className="contact__container__first">
-							<input className="u-input w100" name="phone" type="text" placeholder='PHONE*'/>
-							<input className="u-input w100" name="email" type="text" placeholder='EMAIl*'/>
+							<input className="u-input u-w100" name="phone" type="text" placeholder='PHONE*'/>
+							<input className="u-input u-w100" name="email" type="text" placeholder='EMAIl*'/>
 						</div>
 						<div className="contact__container__second">
 							<Select name="state" options={[
@@ -33,7 +33,7 @@ function Contact() {
 						<Textarea name="why" label="WHY WOULD YOU BE A BENEFICIAL MEMBER?*" />
 					</div>
                <div className="contact__form__last">
-                  <div>
+                  <div className="u-w100">
                      <Select newClass='u-w100' name="MEMBERSHIP" options={[
                            {value: '1', text: 'MEMBERSHIP TYPE*'},
                            {value: '2', text: '2'},
@@ -41,8 +41,8 @@ function Contact() {
                         ]}
                      />
                      <div className="contact__container__first">
-                        <input className="u-input w100" name="referredOne" placeholder="REFERRED BY*"/>
-                        <input className="u-input w100" name="referredTwo" placeholder="REFERRED BY*"/>
+                        <input className="u-input u-w100" name="referredOne" placeholder="REFERRED BY*"/>
+                        <input className="u-input u-w100" name="referredTwo" placeholder="REFERRED BY*"/>
                      </div>
                      <input className="u-input u-w100" name="social" placeholder="INSTAGRAM OR LINKEDIN*"/>
                   </div>

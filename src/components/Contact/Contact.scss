@@ -5,10 +5,10 @@
 	text-align: center;
 	padding: 50px 0;
 	&__title{
-		font-size: 35px;
+		font-size: 1.8rem;
 	}
 	&__paragraph{
-		font-size: 22px;
+		font-size: 1.2rem;
 		margin-bottom: 80px;
 	}
 	&__form{
@@ -44,6 +44,17 @@
 	.contact{
 		&__form{
 			grid-template-columns: 1fr;
+		}
+	}
+}
+
+@media(max-width: 500px){
+	.contact{
+		&__container{
+			&__second,
+			&__first{
+				grid-template-columns: 1fr;
+			}
 		}
 	}
 }

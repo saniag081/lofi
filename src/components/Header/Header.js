@@ -24,7 +24,7 @@ function Header() {
 					<li className="header__list__item">
 						<a href="#3">MEMBERS</a>
 					</li>
-					<li className="header__list__item">
+					<li className="header__list__item header__list__logo">
 						<a href="#4">
 							<figure className="header__figure">
 								<img src="./instagram.svg" alt="logo instagram" />
