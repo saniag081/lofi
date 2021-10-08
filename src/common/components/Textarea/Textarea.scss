@@ -1,0 +1,15 @@
+.u-textarea{
+	&__label{
+		font-weight: 600;
+		font-size: 19px;
+	}
+	&__elem{
+		background: transparent;
+    border: 2.3px solid var(--color-black);
+		width: 100%;
+		height: 127px;
+		&:hover{
+			border-color: var(--color-hover);
+		}
+	}
+}

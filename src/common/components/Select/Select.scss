@@ -1,0 +1,15 @@
+.u-select{
+	background: transparent;
+	border: none;
+	border-bottom: 2.3px solid var(--color-black);
+	outline: none;
+	padding: .5rem 0;
+	padding-right: 1rem;
+	font-size: 19px;
+	font-weight: 600;
+	margin-bottom: 2.5rem;
+	&:hover{
+		border-color: var(--color-hover);
+		color: var(--color-hover);
+	}
+}
