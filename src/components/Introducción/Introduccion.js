@@ -1,4 +1,5 @@
 import Header from '../Header/Header';
+import Button from '../../common/components/Button/Button';
 import './Introduccion.scss'
 
 function Introduccion() {
@@ -9,7 +10,7 @@ function Introduccion() {
 				<h1 className="instroduccion__title">HIFI SOUND</h1>
 				<h2 className="instroduccion__title">LOFI APPROACH</h2>
 				<h4 className="instroduccion__subtitle">MIAMI’S FIRST-EVER VINYL LISTENING BAR.</h4>
-				<a className="u-btn--primary instroduccion__btn" href="#1">RESERVE NOW</a>
+				<Button text='RESERVE NOW' />
 			</div>
 		</section>
 	)

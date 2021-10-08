@@ -1,3 +1,4 @@
+import Button from '../../common/components/Button/Button';
 import './Plan.scss';
 
 function Plan({ title, img, description, price, textBtn }) {
@@ -7,9 +8,7 @@ function Plan({ title, img, description, price, textBtn }) {
 			<h4 className="plan__title">{ title }</h4>
 			<p className="plan__description">{ description }</p>
 			<p className="plan__price">{ price }</p>
-			<div className="u-btn--primary">
-				<a href="#4">{ textBtn }</a>
-			</div>
+			<Button text={textBtn} />
 		</div>
 	)
 }
