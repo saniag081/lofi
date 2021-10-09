@@ -12,6 +12,7 @@ function Arrangement() {
 						description="ACCESS TO MONTHLY MEMBERS’ ONLY EVENTS PRIORITY BOOKING FOR MEMBER AND TWO GUESTS MAY BOOK ON BEHALF OF TWO GUESTS WHEN NOT IN ATTENDANCE ABLE TO REFER OTHER STEREO MEMBERS *PLEASE NOTE, ALL BOOKINGS MUST BE MADE WITH AT LEAST 48 HOURS NOTICE"
 						price="$2500 / YEAR"
 						textBtn="APPLY NOW"
+						toSection='#contact'
 					/>
 					<Plan
 						title="BENEFITS"
@@ -19,6 +20,7 @@ function Arrangement() {
 						description="ACCESS TO MONTHLY MEMBERS’ ONLY EVENTS PRIORITY BOOKING ON ALL EVENTS *PLEASE NOTE, ALL BOOKINGS MUST BE MADE WITH AT LEAST 48 HOURS NOTICE"
 						price="$1500 / YEAR"
 						textBtn="APPLY NOW"
+						toSection='#contact'
 						/>
 				</div>
 			</div>

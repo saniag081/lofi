@@ -10,16 +10,12 @@
     border: 2px solid var(--color-white);
     text-align: center;
     display: inline-block;
-    &__item{
-      text-decoration: none;
-      font-size: 1.4rem;
-      color: var(--color-white);
-    }
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 1.4rem;
     &:hover{
       background-color: var(--color-white);
-      a{
-        color: var(--color-black);
-      }
+      color: var(--color-black);
     }
   }
 
@@ -28,17 +24,12 @@
     border: 2px solid var(--color-black);
     text-align: center;
     display: inline-block;
-    &__item{
-      font-size: 1.4rem;
-      color: var(--color-black);
-      text-decoration: none;
-    }
+    color: var(--color-black);
+    text-decoration: none;
+    font-size: 1.4rem;
     &:hover{
       background-color: var(--color-black);
       color: var(--color-white);
-      a{
-        color: var(--color-white);
-      }
     }
   }
 
