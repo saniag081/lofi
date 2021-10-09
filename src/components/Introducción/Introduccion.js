@@ -10,7 +10,7 @@ function Introduccion() {
 				<h1 className="instroduccion__title">HIFI SOUND</h1>
 				<h2 className="instroduccion__title">LOFI APPROACH</h2>
 				<h4 className="instroduccion__subtitle">MIAMI’S FIRST-EVER VINYL LISTENING BAR.</h4>
-				<Button text='RESERVE NOW' />
+				<Button text='RESERVE NOW' toSection="#contact" />
 			</div>
 		</section>
 	)

@@ -4,6 +4,9 @@
 	background-image: url('../../assets/static/graybackground.png');
 	text-align: center;
 	padding: 50px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	&__title{
 		font-size: 1.8rem;
 	}

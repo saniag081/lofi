@@ -3,13 +3,13 @@ import Select from '../../common/components/Select/Select';
 import { useForm } from 'react-hook-form'
 import './Contact.scss';
 
-function Contact(states) {
+function Contact({states=[], handleChangeSelect, citys=[]}) {
 	const { register, handleSubmit, formState: {errors} } = useForm();
 
 	const handleForm = (data) => {
 		console.log(data);
 	}
-	console.log(states);
+
 	return (
 		<section className="contact" id="contact">
 			<div className="u-content">
@@ -43,35 +43,25 @@ function Contact(states) {
 						</div>
 						<div className="contact__container__second">
 							<Select
-								// {...register('state')}
-								options={[
-									{value: 'one_1', text: 'STATE*'},
-									{value: 'one_2', text: '2'},
-									{value: 'one_3', text: '3'},
-								]}
+                        options={['STATE*', ...states]}
+                        onChange={handleChangeSelect}
 							/>
 							<Select
 								newClass='u-w100'
-								// {...register('city')}
-								options={[
-										{value: 'two_1', text: 'CITY*'},
-										{value: 'two_2', text: '2'},
-										{value: 'two_3', text: '3'},
-									]}
+								options={['CITY*', ...citys]}
 								/>
 						</div>
 						<Textarea
 							required
-							// {...register('why')}
 							label="WHY WOULD YOU BE A BENEFICIAL MEMBER?*"
 						/>
 					</div>
                <div className="contact__form__last">
                   <div className="u-w100">
-                     <Select newClass='u-w100' name="MEMBERSHIP" required options={[
-                           {value: '1', text: 'MEMBERSHIP TYPE*'},
-                           {value: '2', text: '2'},
-                           {value: '3', text: '3'},
+							<Select newClass='u-w100' name="MEMBERSHIP" required options={[
+                        'MEMBERSHIP TYPE*',
+                        1,
+                        2
                         ]}
                      />
                      <div className="contact__container__first">
