@@ -3,7 +3,7 @@ import './Arrangement.scss';
 
 function Arrangement() {
 	return (
-		<section className="arrangement">
+		<section className="arrangement" id="arrangement">
 			<div className="u-content">
 				<div className="arrangement__container">
 					<Plan

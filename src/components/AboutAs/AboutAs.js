@@ -3,7 +3,7 @@ import './AboutAs.scss'
 
 function AboutAs() {
 	return (
-		<section className="about">
+		<section className="about" id="aboutAs">
 			<div className="u-content">
 				<div className="about__container">
 					<h2 className="about__title">MEMBERSHIPS</h2>

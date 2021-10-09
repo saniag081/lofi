@@ -11,7 +11,7 @@ function Contact(states) {
 	}
 	console.log(states);
 	return (
-		<section className="contact">
+		<section className="contact" id="contact">
 			<div className="u-content">
 				<h2 className="contact__title">APPLY TO BECOME A MEMBER</h2>
 				<p className="contact__paragraph">TO APPLY FOR A STEREO MEMBERSHIP, ONE MUST BE RECOMMENDED BY TWO STEREO TIER MEMBERS. THE MEMBERSHIP COMMITTEE WILL MEET EVERY TWO MONTHS TO REVIEW A LIMITED NUMBER OF APPLICATIONS. NOMINATION DOES NOT GUARANTEE ACCEPTANCE.</p>

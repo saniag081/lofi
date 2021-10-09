@@ -19,10 +19,10 @@ function Header() {
 			<nav ref={navRef} className="header__nav">
 				<ul className="header__list">
 					<li className="header__list__item">
-						<a href="#2">RESERVE</a>
+						<a href="#contact">RESERVE</a>
 					</li>
 					<li className="header__list__item">
-						<a href="#3">MEMBERS</a>
+						<a href="#aboutAs">MEMBERS</a>
 					</li>
 					<li className="header__list__item header__list__logo">
 						<a href="#4">

@@ -4,7 +4,7 @@ import './Introduccion.scss'
 
 function Introduccion() {
 	return (
-		<section className="instroduccion">
+		<section className="instroduccion" id="#introduccion">
 			<Header />
 			<div className="u-content">
 				<h1 className="instroduccion__title">HIFI SOUND</h1>
