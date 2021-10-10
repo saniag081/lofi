@@ -1,6 +1,9 @@
 # Lofi
 Maquetacion de lofi
 
+## Proyecto desplegado
+link (https://challenge-lofi.web.app/)
+
 ## Instalar dependencias
 ### `npm install`
 Puedes usar este comando para instalar dependencias
