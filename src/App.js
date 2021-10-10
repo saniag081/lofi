@@ -19,7 +19,7 @@ function App() {
       if (!currentStates.includes(currentCity)) {
         currentStates = [...currentStates, currentCity]
       }
-      return currentStates
+      return currentCity
     }, [])
 
     return currentStates;
